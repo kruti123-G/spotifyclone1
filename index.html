@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify - listen your favourite music</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Header part start-->
+    <div class="header">
+        <nav>
+            <ul>
+                <img src="spotifylogo.png" alt="" class="src"><span>spotify</span>
+                <li><a href="#" class="href">Home</a></li>
+                <li><a href="#" class="href">List</a></li>
+                <!-- <li><a href="#" class="href">About</a></li> -->
+            </ul>
+        </nav>
+        <input type="text" placeholder="search">
+    </div>
+    <!--Header part End-->
+    <!--Main part start-->
+    <div class="container">
+        <div class="songlist">
+            <h2>Best of your favourite song</h2>
+            <div>
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="" id="0" class="song-img">
+                        <span class="songName">Abhi naa jao chod kar</span>
+                        <span class="timestamp">5:34<img src="circle-play-solid.svg" alt="Play" class="songItemPlay"></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jpeg" alt="" id="1" class="song-img">
+                        <span class="songName">Pehla Nasha</span>
+                        <span class="timestamp">5:34<img src="circle-play-solid.svg" alt="Play" class="songItemPlay"></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/3.jpg" alt="" id="2" class="song-img">
+                        <span class="songName">Bahon mee chale Aaaa</span>
+                        <span class="timestamp">5:34<img src="circle-play-solid.svg" alt="Play" class="songItemPlay"></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/4.jpg" alt="" id="3" class="song-img">
+                        <span class="songName">Yeh dil tum bin lagta nahin</span>
+                        <span class="timestamp">5:34<img src="circle-play-solid.svg" alt="Play" class="songItemPlay"></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/5.jpg" alt="" id="5" class="song-img">
+                        <span class="songName">Yeh sham Mastani </span>
+                        <span class="timestamp">5:34<img src="circle-play-solid.svg" alt="Play" class="songItemPlay"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songbanner">
+        </div>
+    </div>
+    <!--Main part end-->
+    <!--<div class="bottom">
+        <input type="range" id="progressbar" min="0" max="100">
+    </div>-->
+    <!--Bottom part start-->
+    <div class="bottom">
+        <input type="range" id="progressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <img src="backward-step-solid.svg" alt="" class="src" id="previous">
+            <img src="circle-play-solid.svg" alt="" class="src" id="masterPlay">
+            <img src="forward-step-solid.svg" alt="" class="src" id="next">
+        </div>
+        <span id="masterSongName">
+            Abhi naa jao chod kar - Lata mangeshkar
+        </span>
+    </div>
+    <!--Bottom part end-->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!--background-image: url('spotifybackgroundimage.jpg');
+.bottom{
+    background-color: black;
+    margin-top: 580px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    color: white;
+}
+#progressbar{
+    width: 150vh;
+    margin-bottom: 10px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    font-size: 30px;
+}-->
