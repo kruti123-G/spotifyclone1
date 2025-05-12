@@ -9,11 +9,11 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Abhi naa jao chod kar", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
-    { songName: "Pehla Nasha", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
-    { songName: "Bahon mein chale aao", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
-    { songName: "Yeh dil tum bin lagta nahi", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
-    { songName: "Yeh sham mastani", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
+    { songName: "Abhi naa jao chod kar", filePath: "1.mp3", coverPath: "covers/1.jpg" },
+    { songName: "Pehla Nasha", filePath: "2.mp3", coverPath: "covers/2.jpg" },
+    { songName: "Bahon mein chale aao", filePath: "3.mp3", coverPath: "covers/3.jpg" },
+    { songName: "Yeh dil tum bin lagta nahi", filePath: "4.mp3", coverPath: "covers/4.jpg" },
+    { songName: "Yeh sham mastani", filePath: "5.mp3", coverPath: "covers/5.jpg" },
 ];
 
 // Update song items in UI
